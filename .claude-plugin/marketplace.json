@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tenzoki-plugins",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Kai / qantr GmbH",
+    "url": "https://github.com/tenzoki"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for writing and style analysis"
+  },
+  "plugins": [
+    {
+      "name": "stilwerk",
+      "description": "Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis.",
+      "source": {
+        "source": "github",
+        "repo": "tenzoki/stilwerk"
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Kai / qantr GmbH"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/tenzoki/stilwerk",
+      "category": "writing",
+      "keywords": ["stylometry", "style-analysis", "authorship-attribution", "text-transformation", "writing"]
+    }
+  ]
+}
