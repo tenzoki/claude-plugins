@@ -18,7 +18,7 @@ Add the marketplace and install a plugin — two commands, done.
 
 | Plugin | Description |
 |--------|-------------|
-| **stilwerk** | Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis. |
+| [**stilwerk**](https://github.com/tenzoki/stilwerk) | Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis. |
 
 ## Requirements
 
