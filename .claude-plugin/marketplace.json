@@ -25,6 +25,14 @@
       "repository": "https://github.com/tenzoki/stilwerk",
       "category": "writing",
       "keywords": ["stylometry", "style-analysis", "authorship-attribution", "text-transformation", "writing"]
-    }
+    },
+	{
+	"name": "fusion",
+	"source": {
+	  "source": "git-subdir",
+	  "url": "https://github.com/tenzoki/fusion.git",
+	  "path": "fusion-plugin",
+	  "ref": "main"
+	}
   ]
 }
