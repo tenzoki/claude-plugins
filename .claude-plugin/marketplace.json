@@ -26,13 +26,23 @@
       "category": "writing",
       "keywords": ["stylometry", "style-analysis", "authorship-attribution", "text-transformation", "writing"]
     },
-	{
-	"name": "fusion",
-	"source": {
-	  "source": "git-subdir",
-	  "url": "https://github.com/tenzoki/fusion.git",
-	  "path": "fusion-plugin",
-	  "ref": "main"
-	}
+    {
+      "name": "fusion",
+      "description": "Fusion project management plugin for Claude Code. Session tracking, cycle management, and coherence reviews.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tenzoki/fusion.git",
+        "path": "fusion-plugin",
+        "ref": "main"
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Kai / qantr GmbH"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/tenzoki/fusion",
+      "category": "development",
+      "keywords": ["fusion", "project-management", "session-tracking", "cycles"]
+    }
   ]
 }
