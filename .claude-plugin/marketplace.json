@@ -28,12 +28,10 @@
     },
     {
       "name": "fusion",
-      "description": "Fusion project management plugin for Claude Code. Session tracking, cycle management, and coherence reviews.",
+      "description": "AI agent orchestration framework with compliance guard, churn detection, and live monitoring. Provides 12 specialized agents, a decision guard with escalation, and a real-time browser-based monitor.",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/tenzoki/fusion.git",
-        "path": "fusion-plugin",
-        "ref": "main"
+        "source": "github",
+        "repo": "tenzoki/fusion"
       },
       "version": "1.0.0",
       "author": {
@@ -42,7 +40,7 @@
       "license": "MIT",
       "repository": "https://github.com/tenzoki/fusion",
       "category": "development",
-      "keywords": ["fusion", "project-management", "session-tracking", "cycles"]
+      "keywords": ["fusion", "orchestration", "agents", "compliance-guard", "churn-detection"]
     }
   ]
 }
