@@ -1,6 +1,6 @@
 # tenzoki claude plugins
 
-A collection of Claude Code plugins for writing, style analysis, and text transformation.
+A collection of Claude Code plugins for AI agent orchestration, writing, and style analysis.
 
 ## Quick start
 
@@ -11,6 +11,7 @@ Add the marketplace and install a plugin — two commands, done.
 /plugin marketplace add tenzoki/claude-plugins
 
 # Install a plugin
+/plugin install fusion@tenzoki-plugins
 /plugin install stilwerk@tenzoki-plugins
 ```
 
@@ -18,12 +19,14 @@ Add the marketplace and install a plugin — two commands, done.
 
 | Plugin | Description |
 |--------|-------------|
+| [**fusion**](https://github.com/tenzoki/fusion) | AI agent orchestration framework with 12 specialized agents, compliance guard, churn detection, and live monitoring. |
 | [**stilwerk**](https://github.com/tenzoki/stilwerk) | Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis. |
 
 ## Requirements
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) v2.0.12 or higher
-- Python 3.10+ (for stilwerk's CLI tools)
+- Node.js 18+ (for fusion's TypeScript hooks)
+- Python 3.10+ (for stilwerk's CLI tools, fusion's monitor)
 
 ## Installing plugins
 
