@@ -34,12 +34,12 @@
     },
     {
       "name": "fusion",
-      "description": "AI agent orchestration framework with compliance guard, churn detection, and live monitoring. Provides 13 specialized agents (incl. consultant), a decision guard with escalation, and a real-time browser-based monitor.",
+      "description": "Multi-domain AI agent orchestration framework. 13 project-agnostic specialized agents (3 parameterised by domain — code/data/strategic/knowledge; investigator parameterised by a project-supplied capture-layout rule) with a compliance guard, churn detection, decision-record tracking, and a real-time browser-based monitor. /fusion:help inside Claude Code for self-explainer.",
       "source": {
         "source": "github",
         "repo": "tenzoki/fusion"
       },
-      "version": "2.0.0",
+      "version": "2.3.0",
       "author": {
         "name": "Kai / qantr GmbH"
       },
