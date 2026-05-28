@@ -12,6 +12,7 @@ Add the marketplace and install a plugin — two commands, done.
 
 # Install a plugin
 /plugin install fusion@tenzoki-plugins
+/plugin install flight@tenzoki-plugins
 /plugin install stilwerk@tenzoki-plugins
 ```
 
@@ -19,7 +20,8 @@ Add the marketplace and install a plugin — two commands, done.
 
 | Plugin | Description |
 |--------|-------------|
-| [**fusion**](https://github.com/tenzoki/fusion) | AI agent orchestration framework with 12 specialized agents, compliance guard, churn detection, and live monitoring. |
+| [**fusion**](https://github.com/tenzoki/fusion) | AI agent orchestration framework with 14 specialized agents, compliance guard, churn detection, and live monitoring. |
+| [**flight**](https://github.com/tenzoki/flight) | Lightweight AI work companion for non-technical users — single agent, document analysis, well-styled outputs, open-task tracking via CLAUDE.md. A flightweight cousin of fusion. |
 | [**stilwerk**](https://github.com/tenzoki/stilwerk) | Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis. |
 
 ## Requirements
@@ -27,6 +29,7 @@ Add the marketplace and install a plugin — two commands, done.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) v2.0.12 or higher
 - Node.js 18+ (for fusion's TypeScript hooks)
 - Python 3.10+ (for stilwerk's CLI tools, fusion's monitor)
+- Flight needs neither — it runs on Claude Code alone (Python only if you ask it to produce `.pptx` / `.xlsx` / `.docx`).
 
 ## Installing plugins
 

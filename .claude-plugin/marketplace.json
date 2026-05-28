@@ -7,7 +7,7 @@
     "url": "https://github.com/tenzoki"
   },
   "metadata": {
-    "description": "Claude Code plugins for writing and style analysis"
+    "description": "Claude Code plugins for AI agent orchestration, writing, and style analysis"
   },
   "plugins": [
     {
@@ -52,6 +52,29 @@
         "agents",
         "compliance-guard",
         "churn-detection"
+      ]
+    },
+    {
+      "name": "flight",
+      "description": "Lightweight AI work companion for non-technical users. One general-purpose agent for analyzing documents, discussing topics, and producing precise, well-styled written outputs. Includes session-close compaction, open-task tracking via CLAUDE.md, and a built-in professional-voice style guide (English + German). /flight:help inside Claude Code for self-explainer.",
+      "source": {
+        "source": "github",
+        "repo": "tenzoki/flight"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Kai / qantr GmbH"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/tenzoki/flight",
+      "category": "writing",
+      "keywords": [
+        "flight",
+        "writing",
+        "documents",
+        "task-tracking",
+        "non-technical",
+        "stylometry"
       ]
     }
   ]
