@@ -39,7 +39,7 @@
         "source": "github",
         "repo": "tenzoki/fusion"
       },
-      "version": "3.13.0",
+      "version": "3.14.0",
       "author": {
         "name": "Kai / qantr GmbH"
       },
@@ -53,6 +53,7 @@
         "compliance-guard",
         "churn-detection"
       ]
+
     },
     {
       "name": "flight",
