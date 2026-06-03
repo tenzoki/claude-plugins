@@ -57,12 +57,12 @@
     },
     {
       "name": "flight",
-      "description": "Lightweight AI work companion for non-technical users. One general-purpose agent (pilot) for analyzing documents, discussing topics, and producing precise, well-styled written outputs. Includes session-close compaction, open-task tracking via CLAUDE.md, and a built-in professional-voice style guide (English + German). /flight:help inside Claude Code for self-explainer. Dispatch with `claude --agent flight:pilot`.",
+      "description": "Lightweight AI work companion for non-technical users. One general-purpose agent (pilot) for analyzing documents, discussing topics, and producing precise, well-styled written outputs. Includes session-close compaction, open-task tracking via CLAUDE.md, and built-in professional-voice and chat-voice style guides (English + German). /flight:help inside Claude Code for self-explainer. Dispatch with `claude --agent flight:pilot`.",
       "source": {
         "source": "github",
         "repo": "tenzoki/flight"
       },
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Kai / qantr GmbH"
       },
