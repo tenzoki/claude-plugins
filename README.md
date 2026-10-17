@@ -22,7 +22,7 @@ Add the marketplace and install a plugin — two commands, done.
 | Plugin | Description |
 |--------|-------------|
 | [**fusion**](https://github.com/tenzoki/fusion) | AI agent orchestration framework with 14 specialized agents, compliance guard, churn detection, and live monitoring. |
-| [**flight**](https://github.com/tenzoki/flight) | Lightweight AI work companion for non-technical users — single agent, document analysis, well-styled outputs, open-task tracking via CLAUDE.md. A flightweight cousin of fusion. |
+| [**flight**](https://github.com/tenzoki/flight) | Lightweight AI work companion for non-technical users — single agent, document analysis, well-styled outputs, open-task tracking in `flight-workbench/memos/`. A flightweight cousin of fusion. |
 | [**stilwerk**](https://github.com/tenzoki/stilwerk) | Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis. |
 | [**scout**](https://github.com/tenzoki/scout) | Deep web research that returns a cited, cross-verified report. Zero-setup breadth core, optional browser-use depth layer and SearXNG search backend, usable as the `scout:scout` sub-agent from other agents. |
 
