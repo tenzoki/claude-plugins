@@ -76,6 +76,28 @@
         "non-technical",
         "stylometry"
       ]
+    },
+    {
+      "name": "scout",
+      "description": "Deep web research for Claude Code that returns a cited, cross-verified report. The breadth core (WebSearch, WebFetch, cross-source verification) works with no setup; /scout:setup registers the optional browser-use depth layer for pages plain HTTP cannot reach and the optional SearXNG search backend, and /scout:meta starts the local SearXNG container. Other agents can delegate to it as the scout:scout sub-agent and get back a compact cited summary plus the report path; an optional `REPORT DIR: <relative path>` line chooses the report folder. Also carries a briefing layer: `scout brief <profile>` merges one research pass per profile section into a recurring briefing, de-duplicated against a persistent ledger (Unix only). Runs as a main-thread agent via `claude --agent scout:scout` or the `scout` launcher.",
+      "source": {
+        "source": "github",
+        "repo": "tenzoki/scout"
+      },
+      "version": "0.6.0",
+      "author": {
+        "name": "Kai / qantr GmbH"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/tenzoki/scout",
+      "category": "research",
+      "keywords": [
+        "scout",
+        "web-research",
+        "citations",
+        "searxng",
+        "browser-use"
+      ]
     }
   ]
 }
