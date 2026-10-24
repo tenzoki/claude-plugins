@@ -83,9 +83,9 @@
       "source": {
         "source": "github",
         "repo": "tenzoki/scout",
-        "ref": "scout--v0.6.4"
+        "ref": "scout--v0.6.5"
       },
-      "version": "0.6.4",
+      "version": "0.6.5",
       "author": {
         "name": "Kai / qantr GmbH"
       },
