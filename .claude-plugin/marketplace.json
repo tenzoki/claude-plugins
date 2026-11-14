@@ -99,6 +99,30 @@
         "searxng",
         "browser-use"
       ]
+    },
+    {
+      "name": "verlag",
+      "description": "Publishing pipeline for Markdown manuscripts. One veroeffentlichung.yaml per publication drives a DIN A4 PDF, a website article with PDF download and preview card, a LinkedIn teaser, a KDP paperback (interior with mirrored margins plus a CMYK wrap cover whose spine follows the real page count) and a KDP EPUB with cover image, all in the manuscript's language. Scripts do the typesetting and check fonts, margins, spine, ink coverage and epubcheck; skills write the summary, back cover, KDP texts and teasers and design a new cover motif per publication. Uploads stay manual. German-language skills. /verlag:hilfe inside Claude Code explains it.",
+      "source": {
+        "source": "github",
+        "repo": "tenzoki/verlag"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Kai / qantr GmbH"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/tenzoki/verlag",
+      "category": "writing",
+      "keywords": [
+        "verlag",
+        "publishing",
+        "kdp",
+        "pandoc",
+        "epub",
+        "pdf",
+        "book-cover"
+      ]
     }
   ]
 }

@@ -15,6 +15,7 @@ Add the marketplace and install a plugin — two commands, done.
 /plugin install flight@tenzoki-plugins
 /plugin install stilwerk@tenzoki-plugins
 /plugin install scout@tenzoki-plugins
+/plugin install verlag@tenzoki-plugins
 ```
 
 ## Available plugins
@@ -25,6 +26,7 @@ Add the marketplace and install a plugin — two commands, done.
 | [**flight**](https://github.com/tenzoki/flight) | Lightweight AI work companion for non-technical users — single agent, document analysis, well-styled outputs, open-task tracking in `flight-workbench/memos/`. A flightweight cousin of fusion. |
 | [**stilwerk**](https://github.com/tenzoki/stilwerk) | Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis. |
 | [**scout**](https://github.com/tenzoki/scout) | Deep web research that returns a cited, cross-verified report. Zero-setup breadth core, optional browser-use depth layer and SearXNG search backend, usable as the `scout:scout` sub-agent from other agents. |
+| [**verlag**](https://github.com/tenzoki/verlag) | Publishing pipeline for Markdown manuscripts: DIN A4 PDF, website article, LinkedIn teaser, KDP paperback with CMYK cover and KDP ebook from one YAML file. Skills in German. |
 
 ## Requirements
 
@@ -32,6 +34,7 @@ Add the marketplace and install a plugin — two commands, done.
 - Node.js 18+ (for fusion's TypeScript hooks)
 - Python 3.10+ (for stilwerk's CLI tools, fusion's monitor)
 - Flight needs neither — it runs on Claude Code alone (Python only if you ask it to produce `.pptx` / `.xlsx` / `.docx`).
+- Verlag needs pandoc, xelatex (BasicTeX), librsvg, ghostscript, poppler, epubcheck and Python 3 with PyYAML, Pillow and pikepdf; it checks them before every build and names the install command for anything missing.
 - Scout's breadth core needs only Claude Code. Its optional depth layer needs `uv`/`uvx` and your own `ANTHROPIC_API_KEY`; its optional SearXNG backend needs Docker.
 
 ## Installing plugins
