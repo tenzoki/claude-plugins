@@ -123,6 +123,30 @@
         "pdf",
         "book-cover"
       ]
+    },
+    {
+      "name": "howtocc",
+      "description": "One skill that answers what Claude can and cannot do and which building block, plan or working method fits a task: chat, projects, Memory, connectors, skills, plugins, Cowork, Claude Code, the API, plans and limits, reliability, data protection. Built from the guide Apply Claude (Kai Stalmann, November 2026), stored as twelve chapter files the skill reads on demand. Changing facts such as prices and beta labels are stated with their date. The same skill folder works in the Claude apps as an uploaded skill.",
+      "source": {
+        "source": "github",
+        "repo": "tenzoki/howtocc"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Kai / qantr GmbH"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "repository": "https://github.com/tenzoki/howtocc",
+      "category": "learning",
+      "keywords": [
+        "claude",
+        "guide",
+        "capabilities",
+        "plans",
+        "cowork",
+        "claude-code",
+        "skills"
+      ]
     }
   ]
 }

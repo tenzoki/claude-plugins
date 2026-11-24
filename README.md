@@ -16,6 +16,7 @@ Add the marketplace and install a plugin — two commands, done.
 /plugin install stilwerk@tenzoki-plugins
 /plugin install scout@tenzoki-plugins
 /plugin install verlag@tenzoki-plugins
+/plugin install howtocc@tenzoki-plugins
 ```
 
 ## Available plugins
@@ -27,6 +28,7 @@ Add the marketplace and install a plugin — two commands, done.
 | [**stilwerk**](https://github.com/tenzoki/stilwerk) | Style analysis, authorship attribution, and text transformation. Combines quantitative stylometry with AI-assisted qualitative analysis. |
 | [**scout**](https://github.com/tenzoki/scout) | Deep web research that returns a cited, cross-verified report. Zero-setup breadth core, optional browser-use depth layer and SearXNG search backend, usable as the `scout:scout` sub-agent from other agents. |
 | [**verlag**](https://github.com/tenzoki/verlag) | Publishing pipeline for Markdown manuscripts: DIN A4 PDF, website article, LinkedIn teaser, KDP paperback with CMYK cover and KDP ebook from one YAML file. Skills in German. |
+| [**howtocc**](https://github.com/tenzoki/howtocc) | One skill that answers what Claude can and cannot do and which building block, plan or working method fits a task. Built from the guide *Apply Claude* (November 2026); also usable as an uploaded skill in the Claude apps. |
 
 ## Requirements
 
